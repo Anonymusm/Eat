@@ -1,0 +1,70 @@
+:root {
+  --bg-color: rgb(14, 20, 50);
+  --text-color: aliceblue;
+  --a-color: bisque;
+}
+
+.section-1 ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.section-1 ul li {
+  width: 480px;
+}
+
+.section-1 ul li img {
+  display: block;
+  margin: 0 auto;
+}
+
+* {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+a {
+  color: var(--a-color);
+}
+
+.section-1 + section {
+  padding: 55px;
+}
+
+.section-1 + section ul {
+  list-style: none;
+}
+
+.section-1 + section ul li {
+  padding: 55px;
+}
+
+section {
+  padding: 40px;
+}
+
+.section-3 ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.section-3 li {
+  width: 450px;
+}
+
+.section-4 {
+    text-align: center;
+}
+
+.section-4 ul {
+     display: flex;
+     flex-wrap: wrap;
+     list-style-type: none;
+}
+
+.section-4 ul li{
+    width: 460px;
+}
