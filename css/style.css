@@ -2,6 +2,7 @@
   --bg-color: rgb(14, 20, 50);
   --text-color: aliceblue;
   --a-color: bisque;
+  --selection-color: rgb(234, 185, 95);
 }
 
 .section-1 ul {
@@ -56,15 +57,19 @@ section {
 }
 
 .section-4 {
-    text-align: center;
+  text-align: center;
 }
 
 .section-4 ul {
-     display: flex;
-     flex-wrap: wrap;
-     list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
 
-.section-4 ul li{
-    width: 460px;
+.section-4 ul li {
+  width: 460px;
+}
+
+*::selection {
+  background-color: var(--selection-color)
 }
